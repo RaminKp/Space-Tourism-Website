@@ -36,7 +36,7 @@ body {
 
 .navPartnav-parts {
     text-decoration: none;
-    color: aliceblue;
+    color: white;
     justify-self: center;
 }
 
@@ -50,7 +50,7 @@ body {
     position: relative;
     top: 27px;
     margin: 0;
-    visibility: hidden;
+    visibility: visible;
 }
 
 .navPartnav-part2 {
@@ -139,8 +139,11 @@ body {
 }
 
 .mainPageButton{
-    grid-row: 10/18;
-    grid-column: 14/19;
+    grid-row: 9/17;
+    grid-column: 13/18;
+    z-index: 2;
+    align-self: center;
+    justify-self: center;
 }
 
 .mainPageButton-btn{
@@ -156,4 +159,22 @@ body {
 
 .mainPageButton-btn:hover{
     cursor: pointer;
+}
+
+.buttonBackGlow{
+    grid-row: 8/18;
+    grid-column: 12/19;
+    z-index: 0;
+    align-self: center;
+    justify-self: center;
+}
+
+.buttonBackGlow-btn{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    border: none;
+    background-color: #979797;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s;
 }
