@@ -19,18 +19,19 @@
 <body>
   <div class="navPart">
     <nav class="navPartnav">
-      <a class="navPartnav-parts navPartnav-part1" href=""><b>00</b> Home
+      <a class="navPartnav-parts navPartnav-part1" href="index.html"><b>00</b> Home
         <hr class="part1HR"></a>
       <a class="navPartnav-parts navPartnav-part2" href="destination-moon.html"><b>01</b> Destination
         <hr class="part2HR"></a>
-      <a class="navPartnav-parts navPartnav-part3" href=""><b>02</b> Crew
+      <a class="navPartnav-parts navPartnav-part3" href="crew-commander.html"><b>02</b> Crew
         <hr class="part3HR"></a>
-      <a class="navPartnav-parts navPartnav-part4" href=""><b>03</b> Technology
+      <a class="navPartnav-parts navPartnav-part4" href="technology-capsule.html"><b>03</b> Technology
         <hr class="part4HR"></a>
     </nav>
     <hr class="navPartHR">
     <img class="navPartLogo" src="assets/shared/logo.svg" alt="">
   </div>
+  
   <div class="mainPageText">
     <p class="mainPageText1"> SO, YOU WANT TO TRAVEL TO </p>
     <p class="mainPageText2"> SPACE</p>
@@ -39,13 +40,18 @@
       because we’ll give you a truly out of this world experience!</p>
   </div>
   <div class="mainPageButton">
-    <button class="mainPageButton-btn">EXPLORE</button>
+    <button class="mainPageButton-btn" id="myButton">EXPLORE</button>
   </div>
   <div class="buttonBackGlow">
     <button class="animate__fadeIn buttonBackGlow-btn"></button>
   </div>
 
 <script src="mainPageButtonHover.js"></script>
+<script>
+  document.getElementById("myButton").addEventListener("click", function() {
+    window.location.href = "destination-moon.html";
+  });
+</script>
 </body>
 
 </html>
