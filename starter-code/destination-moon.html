@@ -4,34 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&family=Barlow:wght@200;300&family=Bellefair&display=swap" rel="stylesheet">
+    <!-- CSS CONNECTION -->
+    <link rel="stylesheet" href="destination-moon.css">
+    <title>Space tourism website</title>
+
 </head>
 <body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <div class="navPart">
+    <nav class="navPartnav">
+      <a class="navPartnav-parts navPartnav-part1" href="index.html"><b>00</b> Home
+        <hr class="part1HR"></a>
+      <a class="navPartnav-parts navPartnav-part2" href="destination-moon.css"><b>01</b> Destination
+        <hr class="part2HR"></a>
+      <a class="navPartnav-parts navPartnav-part3" href="crew-commander.html"><b>02</b> Crew
+        <hr class="part3HR"></a>
+      <a class="navPartnav-parts navPartnav-part4" href="technology-capsule.html"><b>03</b> Technology
+        <hr class="part4HR"></a>
+    </nav>
+    <hr class="navPartHR">
+    <img class="navPartLogo" src="assets/shared/logo.svg" alt="">
+  </div>
 
-  01 Pick your destination
 
-  Moon
-  Mars
-  Europa
-  Titan
+  <div class="destMoonPage">
+    <!-------------------------------------DESTINATION MOON PART----------------------------------------------------->
+    <div class="destMoonPage-title">
+      <h2 class="destMoonPage-titleText"><strong class="destMoonPage-titleNumber">01 </strong>PICK YOUR DESTINATION</h2>
+    </div>
+    <div class="destMoonPage-imgPart"><img class="destMoonPage-img" src="assets/destination/image-moon.png" alt=""></div>
+    <div class="destMoonPage-explained">
+      <ul class="destMoonPage-insideMenu">
+        <li class="insideMenuItems"><a class="active" href="destination-moon.html">Moon</a></li>
+        <li class="insideMenuItems"><a href="destination-mars.html">Mars</a></li>
+        <li class="insideMenuItems"><a href="destination-europa.html">Europa</a></li>
+        <li class="insideMenuItems"><a href="destination-titan.html">Titan</a></li>
+      </ul>
+      <h1 class="destMoonPage-explainedTitle">MOON</h1>
+      <p class="destMoonPage-explainedText">  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+        regain perspective and come back refreshed. While you’re there, take in some history 
+        by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        <hr class="destMoonPage-explainedHR">
+        <div class="destMoonPage-explainedStats1">
+          <p class="destMoonPage-explainedStats1-title">  Avg. distance</p>
+          <p class="destMoonPage-explainedStats1-answer">  384,400 km</p>
+        </div>
+        <div class="destMoonPage-explainedStats2">
+          <p class="destMoonPage-explainedStats2-title">  Est. travel time</p>
+          <p class="destMoonPage-explainedStats2-answer"> 3 days</p>
+        </div>
+    </div>
 
-  Moon
+  </div>
 
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
-
-  Avg. distance
-  384,400 km
-
-  Est. travel time
-  3 days
+  <script src="destination-moon.js"></script>
 </body>
 </html>
