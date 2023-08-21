@@ -4,24 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&family=Barlow:wght@200;300&family=Bellefair&display=swap" rel="stylesheet">
+    <!-- CSS CONNECTION -->
+    <link rel="stylesheet" href="crew.css">
+    <title>Space tourism website</title>
+
 </head>
 <body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <div class="navPart">
+    <nav class="navPartnav">
+      <a class="navPartnav-parts navPartnav-part1" href="index.html"><b>00</b> Home
+        <hr class="part1HR"></a>
+      <a class="navPartnav-parts navPartnav-part2" href="destination-moon.html"><b>01</b> Destination
+        <hr class="part2HR"></a>
+      <a class="navPartnav-parts navPartnav-part3" href="crew-commander.html"><b>02</b> Crew
+        <hr class="part3HR"></a>
+      <a class="navPartnav-parts navPartnav-part4" href="technology-capsule.html"><b>03</b> Technology
+        <hr class="part4HR"></a>
+    </nav>
+    <hr class="navPartHR">
+    <img class="navPartLogo" src="assets/shared/logo.svg" alt="">
+  </div>
 
-  02 Meet your crew
 
-  Flight Engineer
-  Anousheh Ansari
+  <div class="crewPage">
+    <!-------------------------------------CREW PART----------------------------------------------------->
+    <div class="crewPage-title">
+      <h2 class="crewPage-titleText"><strong class="crewPage-titleNumber">02 </strong>MEET YOUR CREW</h2>
+    </div>
+    
+    <div class="crewPage-imgPart"><img class="crewPage-img" src="assets/crew/image-anousheh-ansari.png" alt=""></div>
 
-  Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+    <div class="crewPage-explained">
+      <h1 class="crewPage-explainedTitle">FLIGHT ENGINEER</h1>
+      <h1 class="crewPage-explainedTitle2">ANOUSHEH ANSARI</h1>
+      <p class="crewPage-explainedText">   Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
   Ansari was the fourth self-funded space tourist, the first self-funded woman to 
-  fly to the ISS, and the first Iranian in space. 
+  fly to the ISS, and the first Iranian in space. </p>
+    </div>
+
+    <div class="crewPage-slides">
+      <a class="dot" href="crew-commander.html"></a>
+      <a class="dot" href="crew-specialist.html"></a>
+      <a class="dot" href="crew-pilot.html"></a>
+      <a class="dot active" href="crew-engineer.html"></a>
+    </div>
+
+  </div>
+
+
+  <script src="crew.js"></script>
 </body>
 </html>
+
+
