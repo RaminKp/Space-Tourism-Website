@@ -111,7 +111,7 @@ body {
   justify-self: center;
 }
 
-.destMoonPage {
+.destPage {
   grid-column: 3/19;
   grid-row: 5/18;
   display: grid;
@@ -119,32 +119,32 @@ body {
   grid-template-rows: repeat(12, 1fr);
 }
 
-.destMoonPage-title {
+.destPage-title {
   grid-column: 1/8;
   grid-row: 1/3;
 }
 
-.destMoonPage-titleNumber {
+.destPage-titleNumber {
   color: #43464d;
   margin-right: 20px;
 }
 
-.destMoonPage-titleText {
+.destPage-titleText {
   color: #ffffff;
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 100;
 }
 
-.destMoonPage-imgPart {
+.destPage-imgPart {
   grid-column: 3/11;
   grid-row: 4/10;
 }
 
-.destMoonPage-img {
+.destPage-img {
   width: 70%;
 }
 
-.destMoonPage-explained {
+.destPage-explained {
   grid-column: 13/19;
   grid-row: 3/12;
 }
@@ -153,7 +153,7 @@ body {
   display: inline;
 }
 
-.destMoonPage-insideMenu{
+.destPage-insideMenu{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -186,7 +186,7 @@ li a.active::after {
   background-color: #D0D6F9; /* Change this to the desired color */
 }
 
-.destMoonPage-explainedTitle{
+.destPage-explainedTitle{
   font-size: 80px;
   color: #ffffff;
   font-family: 'Bellefair', serif;
@@ -196,7 +196,7 @@ li a.active::after {
   justify-self: center;
 }
 
-.destMoonPage-explainedText{
+.destPage-explainedText{
   font-size: 12px;
   line-height: 20px;
   color: #ffffff;
@@ -214,11 +214,11 @@ h1 {
   margin-block-end: 0;
 }
 
-.destMoonPage-explainedHR{
+.destPage-explainedHR{
   border-color: #383B4B;
 }
 
-.destMoonPage-explainedStats1 {
+.destPage-explainedStats1 {
   display: grid;
   grid-template-columns: auto auto; /* Add this to create two columns */
   grid-gap: 20px; /* Add some spacing between the columns */
@@ -227,30 +227,30 @@ h1 {
   margin-top: 20px;
 }
 
-.destMoonPage-explainedStats2 {
+.destPage-explainedStats2 {
   display: grid;
   grid-template-columns: auto auto; /* Add this to create two columns */
   grid-gap: 20px; /* Add some spacing between the columns */
   grid-row: 9/11; /* Adjust the grid row to align with the text */
 }
 
-.destMoonPage-explainedStats1-title,
-.destMoonPage-explainedStats2-title,
-.destMoonPage-explainedStats1-answer,
-.destMoonPage-explainedStats2-answer {
+.destPage-explainedStats1-title,
+.destPage-explainedStats2-title,
+.destPage-explainedStats1-answer,
+.destPage-explainedStats2-answer {
   font-family: 'Barlow', sans-serif;
   font-weight: 300;
   margin: 0;
 }
 
-.destMoonPage-explainedStats1-title,
-.destMoonPage-explainedStats2-title {
+.destPage-explainedStats1-title,
+.destPage-explainedStats2-title {
   font-size: 14px;
   color: #ffffff;
 }
 
-.destMoonPage-explainedStats1-answer,
-.destMoonPage-explainedStats2-answer {
+.destPage-explainedStats1-answer,
+.destPage-explainedStats2-answer {
   font-size: 16px;
   color: #D0D6F9;
 }
