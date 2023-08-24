@@ -1,0 +1,210 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-size: cover;
+  background-image: url(assets/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(19, 1fr);
+  grid-template-rows: repeat(19, 1fr);
+}
+
+.navPart {
+  grid-column: 1/20;
+  grid-row: 2/4;
+  display: grid;
+  grid-template-columns: repeat(19, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.navPartnav {
+  grid-column: 10/20;
+  grid-row: 1/8;
+  height: 100%;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.navPartnav-parts {
+  text-decoration: none;
+  color: white;
+  justify-self: center;
+  opacity: 100% !important;
+}
+
+.navPartnav-part1 {
+  grid-column: 3/5;
+}
+
+.part1HR {
+  width: 100%;
+  grid-column: 3/5;
+  position: relative;
+  top: 27px;
+  margin: 0;
+  visibility: hidden;
+}
+
+.navPartnav-part2 {
+  grid-column: 5/7;
+}
+
+.part2HR {
+  grid-column: 5/7;
+  position: relative;
+  top: 27px;
+  margin: 0;
+  visibility: hidden;
+}
+
+.navPartnav-part3 {
+  grid-column: 7/9;
+}
+
+.part3HR {
+  width: 100%;
+  grid-column: 7/9;
+  position: relative;
+  top: 27px;
+  margin: 0;
+  visibility: hidden;
+}
+
+.navPartnav-part4 {
+  grid-column: 9/11;
+}
+
+.part4HR {
+  width: 100%;
+  grid-column: 9/11;
+  position: relative;
+  top: 27px;
+  margin: 0;
+  visibility: visible;
+}
+
+.navPartHR {
+  width: 100%;
+  grid-column: 4/10;
+  grid-row: 3/5;
+  overflow: visible;
+  z-index: 2;
+  align-self: flex-end;
+  border-color: #484B54;
+  position: relative;
+  right: -12px;
+  top: 3px;
+}
+
+.navPartLogo {
+  width: 40px;
+  grid-column: 1/3;
+  grid-row: 2/5;
+  justify-self: center;
+}
+
+.techPage {
+  grid-column: 3/19;
+  grid-row: 5/20;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+
+}
+
+.techPage-title {
+  grid-column: 1/8;
+  grid-row: 1/3;
+}
+
+.techPage-titleNumber {
+  color: #43464d;
+  margin-right: 20px;
+}
+
+.techPage-titleText {
+  color: #ffffff;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 100;
+}
+
+.techPage-imgPart {
+  grid-row: 2/12;
+  grid-column: 13/21;
+}
+
+.techPage-img {
+  width: 400px;
+}
+
+.techPage-explained {
+  grid-column: 3/9;
+  grid-row: 4/17;
+}
+
+.techPage-explainedTitle {
+  font-size: 16px;
+  color: #D0D6F9;
+  font-family: 'Bellefair', serif;
+  font-weight: 100;
+  grid-row: 5/7;
+}
+
+.techPage-explainedTitle2 {
+  font-size: 46px;
+  color: #ffffff;
+  font-family: 'Bellefair', serif;
+  font-weight: 200;
+}
+
+.techPage-explainedText {
+  font-size: 14px;
+  line-height: 20px;
+  color: #D0D6F9;
+  font-weight: 100;
+  font-family: 'Barlow', sans-serif;
+  margin-top: 30px;
+}
+
+h1 {
+  margin-block-start: 0.33em;
+  margin-block-end: 0;
+}
+
+.techPage-slides {
+  grid-column: 1/3;
+  grid-row: 4/10;
+}
+
+.dot {
+  height: 45px;
+  width: 45px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px dotted #909090;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.dot:hover {
+  border: 2px dotted #ffffff;
+}
+
+.dot.active {
+  background-color: #ffffff;
+  color: #43464d;
+}
