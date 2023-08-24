@@ -4,29 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&family=Barlow:wght@200;300&family=Bellefair&display=swap" rel="stylesheet">
+    <!-- CSS CONNECTION -->
+    <link rel="stylesheet" href="technology.css">
+    <title>Space tourism website</title>
+
 </head>
 <body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <div class="navPart">
+    <nav class="navPartnav">
+      <a class="navPartnav-parts navPartnav-part1" href="index.html"><b>00</b> Home
+        <hr class="part1HR"></a>
+      <a class="navPartnav-parts navPartnav-part2" href="destination-moon.html"><b>01</b> Destination
+        <hr class="part2HR"></a>
+      <a class="navPartnav-parts navPartnav-part3" href="crew-commander.html"><b>02</b> Crew
+        <hr class="part3HR"></a>
+      <a class="navPartnav-parts navPartnav-part4" href="technology-capsule.html"><b>03</b> Technology
+        <hr class="part4HR"></a>
+    </nav>
+    <hr class="navPartHR">
+    <img class="navPartLogo" src="assets/shared/logo.svg" alt="">
+  </div>
 
-  03 Space launch 101
 
-  1
-  2
-  3
+  <div class="techPage">
+    <!-------------------------------------TECH PART----------------------------------------------------->
+    <div class="techPage-title">
+      <h2 class="techPage-titleText"><strong class="techPage-titleNumber">03 </strong>SPACE LAUNCH 101</h2>
+    </div>
 
-  The terminology...
-  Space capsule
+    <div class="techPage-slides">
+      <a class="dot" href="technology-vehicle.html">1</a>
+      <a class="dot" href="technology-spaceport.html">2</a>
+      <a class="dot active" href="technology-capsule.html">3</a>
+    </div>
 
-  A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+        <div class="techPage-explained">
+      <h1 class="techPage-explainedTitle">THE TERMINOLOGY ...</h1>
+      <h1 class="techPage-explainedTitle2">SPACE CAPSULE</h1>
+      <p class="techPage-explainedText">  A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
   capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
   you'll spend your time during the flight. It includes a space gym, cinema, 
-  and plenty of other activities to keep you entertained.
+  and plenty of other activities to keep you entertained.</p>
+    </div>
+    <div class="techPage-imgPart"><img class="techPage-img" src="assets/technology/image-space-capsule-portrait.jpg" alt=""></div>
+  </div>
+
 </body>
 </html>
+
